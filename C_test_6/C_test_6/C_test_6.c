@@ -11,8 +11,8 @@ int main()
 	scanf("%d", &n);
 	for (; i <= n; i++)
 	{
-		f = f * i;//calculate the current factorial
-		s = s + f;//add the factorial to the sum
+		f *= i;//calculate the current factorial
+		s += f;//add the factorial to the sum
 	}
 	printf("%d", s);
 	return 0;
