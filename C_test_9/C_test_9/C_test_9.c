@@ -8,8 +8,8 @@ int main()
 	char password[] = { "123456" };
 	printf("Please input password:>");
 	char input[20];
-	int i = 0;
-	while (i < 3)
+	int i;
+	for (i = 0; i < 3; i++)
 	{
 		scanf("%s", input);
 		if (!strcmp(input, password))
@@ -23,7 +23,6 @@ int main()
 				printf("Password incorrect, please try again:>");
 			else
 				printf("Password incorrect, run out of chance!");
-			i++;
 		}
 	}
 	return 0;
