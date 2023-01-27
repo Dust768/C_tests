@@ -21,8 +21,8 @@
   <PropertyGroup Label="Globals">
     <VCProjectVersion>16.0</VCProjectVersion>
     <Keyword>Win32Proj</Keyword>
-    <ProjectGuid>{849d6b8f-a595-4f4b-975c-c969f396698b}</ProjectGuid>
-    <RootNamespace>Ctest3</RootNamespace>
+    <ProjectGuid>{9e02b3f3-c90a-4859-85bc-4725c4992ad4}</ProjectGuid>
+    <RootNamespace>Ctest003</RootNamespace>
     <WindowsTargetPlatformVersion>10.0</WindowsTargetPlatformVersion>
   </PropertyGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
@@ -127,7 +127,7 @@
     </Link>
   </ItemDefinitionGroup>
   <ItemGroup>
-    <ClCompile Include="C_test_3.cpp" />
+    <ClCompile Include="C_test_3.c" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">
