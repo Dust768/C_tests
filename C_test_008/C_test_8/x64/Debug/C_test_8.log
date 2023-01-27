@@ -1,1 +1,3 @@
-﻿  C_test_8.vcxproj -> D:\Source\repos\C_test_8\x64\Debug\C_test_8.exe
+﻿  C_test_8.c
+D:\Source\repos\C_tests\C_test_008\C_test_8\C_test_8.c(14,28): warning C4267: “初始化”: 从“size_t”转换到“int”，可能丢失数据
+  C_test_8.vcxproj -> D:\Source\repos\C_tests\C_test_008\x64\Debug\C_test_8.exe
