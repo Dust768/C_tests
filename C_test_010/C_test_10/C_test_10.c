@@ -1,4 +1,5 @@
 //Guess a number between 1 and 100.
+
 #define _CRT_SECURE_NO_WARNINGS
 
 #include<stdio.h>
