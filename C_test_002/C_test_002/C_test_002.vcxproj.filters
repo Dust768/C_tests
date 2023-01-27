@@ -15,7 +15,7 @@
     </Filter>
   </ItemGroup>
   <ItemGroup>
-    <ClCompile Include="C_text_2.cpp">
+    <ClCompile Include="C_test_2.c">
       <Filter>源文件</Filter>
     </ClCompile>
   </ItemGroup>

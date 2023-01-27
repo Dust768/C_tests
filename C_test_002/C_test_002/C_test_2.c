@@ -1,3 +1,5 @@
+//Use of structure.
+
 #include<stdio.h>
 
 struct student
