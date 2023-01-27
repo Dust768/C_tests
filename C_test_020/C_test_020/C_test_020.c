@@ -1,4 +1,4 @@
-//Calculate the long of a character string whithout using a temproray varialbe.
+//Calculate the long of a character string without using a temproray varialbe.
 
 #include<stdio.h>
 
