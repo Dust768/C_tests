@@ -1,3 +1,5 @@
+//getchar putchar
+
 #include<stdio.h>
 
 int main()
