@@ -1,4 +1,4 @@
-//Find a number from a ordered array.
+//Binary search, find a number from a ordered array.
 
 #define _CRT_SECURE_NO_WARNINGS
 
