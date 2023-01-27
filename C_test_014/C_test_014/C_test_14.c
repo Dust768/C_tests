@@ -2,17 +2,29 @@
 
 #include<stdio.h>
 
+int is_leap_year(int y)
+{
+	if (!(y % 4))
+	{
+		if (y % 100)
+			return 1;
+		else if (!(y % 400))
+			return 1;
+	}
+	return 0;
+}
+
 int main()
 {
-	int y, c=0;
+	int y, c = 0;
 	for (y = 1000; y <= 2000; y++)
 	{
-		if ((!(y % 4) && (y % 100)) || !(y % 400))
+		if (is_leap_year(y))
 		{
 			printf("%d ", y);
 			c++;
 		}
 	}
-	printf("\ntotal:%d", c);
+	printf("\n%d", c);
 	return 0;
 }
