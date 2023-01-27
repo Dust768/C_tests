@@ -1,3 +1,5 @@
+//Input password.
+
 #define _CRT_SECURE_NO_WARNINGS
 
 #include<stdio.h>
@@ -17,13 +19,10 @@ int main()
 			printf("Password correct");
 			break;
 		}
+		else if (i < 2)
+			printf("Password incorrect, %d chance left:>", 2 - i);
 		else
-		{
-			if (i < 2)
-				printf("Password incorrect, please try again:>");
-			else
-				printf("Password incorrect, run out of chance!");
-		}
+			printf("Password incorrect, no chance left!");
 	}
 	return 0;
 }
